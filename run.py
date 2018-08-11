@@ -9,7 +9,7 @@ from manage import Manage
 # TEST is an object of Bomberman
 TEST = Bomberman()
 
-# TEST1 is an object of Bomberman
+# TEST1 is an object of Manage
 TEST1 = Manage()
 
 # the initial Welcome Print.
