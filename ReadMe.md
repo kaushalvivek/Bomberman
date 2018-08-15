@@ -37,17 +37,17 @@ Rules of the Game
 
 Description of Classes Created
 --------------------------------------------
-####Board:
+#### Board:
 The board class creates a 18x18 board for gameplay, with boundaries, walls and empty spaces. It also comprises of a getprint function to take a print of the board.
-####Bricks:
+#### Bricks:
 The Brick class randomly adds 30 bricks to the board in empty spaces. It inherits the Board class.
-####Bomberman:
+#### Bomberman:
 The Bomberman class has all the variables and functionality of Bomberman, this includes the generation, movement and bomb planting. This inherits Enemy and Bomb.
-####Bomb:
+#### Bomb:
 The bomb class does not inherit any other class, it creates a bomb, keeps count of bombs and their positions, explosion, and then clears that explosion.
-####Enemy:
+#### Enemy:
 The Enemy class inherits Bricks, and adds 4 enemies to the board, it manages the motion, deletion, generation and functionality of enemies.
-####Manage:
+#### Manage:
 Manage class manages score, printing, and the killing of Bomberman.
 
 __________________
